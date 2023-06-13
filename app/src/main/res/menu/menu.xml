@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:id="@+id/seach"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/add_persion"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_people_24"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/bangDiem"
+        tools:ignore="MenuTitle"
+        android:title="Bảng điểm"
+        />
+    <item android:id="@+id/dieDanh"
+        tools:ignore="MenuTitle"
+        android:title="Điểm danh"
+        />
+    <item android:id="@+id/dangXuat"
+        tools:ignore="MenuTitle"
+        android:title="Đăng xuất"
+        />
+</menu>
